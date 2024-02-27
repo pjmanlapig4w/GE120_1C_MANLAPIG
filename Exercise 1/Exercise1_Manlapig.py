@@ -1,11 +1,14 @@
 """
 GE120 Intro to OOP Geomatic Application
+Exercise 1
 Peter John Manlapig
 2023-21040
 """
 
 
 dms = 118.42069
+
+print("Input (In decimal degrees)", dms)
 
 # getting the degree part
 
