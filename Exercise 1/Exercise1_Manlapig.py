@@ -7,24 +7,24 @@ Peter John Manlapig
 
 dms = 118.42069
 
-# # getting the degree part
+# getting the degree part
 
 degree = int(dms)
 
-# # getting the minute part 
+# getting the minute part 
 
 minutes = (dms - degree) * 60
 
 minutes_whole = int(minutes)
 
-# # getting the seconds
+# getting the seconds
 
 seconds = (minutes - minutes_whole) * 60
 
 
 print("This is Bearing DMS: " + str(degree) + "-" + str(minutes_whole) + "-" + str(round(seconds,2)))
 
-decimal = "119-25-14.48"
+decimal = "118-25-14.48"
 values = decimal.split("-")
 
 degrees = int(values[0])
