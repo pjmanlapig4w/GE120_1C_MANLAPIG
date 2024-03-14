@@ -37,3 +37,4 @@ seconds = float(values[2])
 dd = degrees + (minutes/60) + (seconds/3600)
 
 print("This is the Degree Decimal: " + str(round(dd,6)))
+
