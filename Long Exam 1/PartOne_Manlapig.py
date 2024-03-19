@@ -43,6 +43,7 @@ programmed.
 
 However, I think one example of a task related to geomatics is training and education. Just like the learning systems of Khan Academy, Duolingo,
 and many others, we can optimize learning geomatics through games, quizzes, and puzzles. Coding and CAD can be fun and enjoyable 
-if there are reward systems like in games. 
+if there are reward systems like in games.
 
+push
 """

@@ -69,6 +69,7 @@ while True:
 print("\n")
 '''
 Ipiprint yung guide table
+push
 '''
 print('{: ^10} {: ^15} {: ^25} {: ^15} {: ^15}' .format ("STATION", "BACKSIGHT", "INSRUMENT HEIGHT", "FORESIGHT", "ELEVAION"))
 for line in lines:
