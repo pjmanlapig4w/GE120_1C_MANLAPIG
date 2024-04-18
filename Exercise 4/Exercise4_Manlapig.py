@@ -140,15 +140,17 @@ print("\n\n")
 print('{:^10} {:^10} {:^10} {:^10} {:^10}'.format("LINE NO. ", "DISTANCE", "BEARING", "LATITUDE", "DEPARTURE"))
 for line in lines:
     print('{:^10} {:^10} {:^10} {:^10} {:^10}'.format(line[0], line[1], line[2], round(line[3],3), round(line[4],3)))
-
+print("\n")
 print("SUMMATION OF LAT: ", sumLat)
+print("\n")
 print("SUMMATION OF DEP: ", sumDep)
+print("\n")
 print("SUMMATION OF DIST: ", sumDist)
 
 lec = math.sqrt(sumLat**2 + sumDep**2)
-
+print("\n")
 print("LEC: ", lec)
 rec = sumDist/lec
-
+print("\n")
 print("1: ", round(rec, -3))
-
+print("\n")
